@@ -1,14 +1,19 @@
 # pIMU: Unidad de medición inercial portatil
 
+pIMU es una unidad de medición inercial (acelerómetro, giroscopio y magnetómetro) capaz de enviar los datos muestreados de forma inalámbrica. 
+
 ## Características
 
-pIMU es una unidad de medición inercial (acelerómetro, giroscopio y magnetómetro) capaz de enviar los datos muestreados de forma inalámbrica. Sus principales características son:
-
 · Dimensiones: 18x12mm
+
 · Tensión de trabajo: 3,5V-1V
+
 · Consumo: 9mA (consumo optimizado en el código)
+
 · Transmisor y protcolo: NRF24L01
+
 · Frecuencia de emisión: 2,4GHz
+
 
 ## Descripción
 
