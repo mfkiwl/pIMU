@@ -29,7 +29,7 @@ Una vez adquiridos todos los componentes (Bill Of Materials disponible en el pro
 
 1. Soldadura del TLV, Atmega, sus condensadores de desacoplo y la resistencia de pull-up para el reset
 
-2. Conexión de la interfaz SPI al ordenador. Para ello, podemos tomar como puertos de SPI los pines correspondientes al módulo NRF24L01 aún sin soldar y conectarlos a un programador ISP. En caso de no disponer de dicho programador, es posible fabricarse uno con un Arduino (ENLACE).
+2. Conexión de la interfaz SPI al ordenador. Para ello, podemos tomar como puertos de SPI los pines correspondientes al módulo NRF24L01 aún sin soldar y conectarlos a un programador ISP. En caso de no disponer de dicho programador, es posible fabricarse uno con un Arduino https://www.arduino.cc/en/Guide/ArduinoISP.
 
 3. Cambio de los fuses (¿fusibles?) del micro. Para ello se usará el programa avrdude. Buscamos optimizar el espacio reservado al bootloader, utilizar el reloj interno a 8MHz para un menos consumo y desactivar o rebajar la detección de Brown-Out. En nuestro caso, los valores elegidos son LowFuse: 0xFF; HighFuse: 0xDE; ExtendedFuse: 0xFD. 
 
